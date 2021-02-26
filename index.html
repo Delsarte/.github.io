@@ -1,85 +1,332 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 
-	<head>
-		<meta charset="utf-8">
-		<link rel="stylesheet" href="style.css">
-		<title> CV </title>
-	</head>
-	<body>
+<head>
+  
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-		<div id="main">
-			<nav>
-				<div id="profil">
-					<ul>
-						<li><h3>Profil</h3></li>
-						<p>Je suis très motiver dans les
-						travaux que j'entreprend, j'aime
-						finir ce que je commence et
-						bien le faire. Je suis à l'écoute de
-						toutes remarques que l'on pourrai me faire pour m'améliorer.</p>
-						<br>
-						<br>
-						<li><h3>Langues</h3></li>
-						<p>Anglais (niveau B1)<br>
-						Allemand (scolaire)</p>
-						<br>
-						<br>
-						<br>
-						<li><h3>Langages informatiques</h3></li>
-						<p>HTML<br>
-						CSS<br>
-						PHP<br>
-						JS<br></p>
-						<br>
-						<br>
-						<li><h3>Contact</h3></li>
-						<p>Tel: 0688108879<br>
-						addresse email:<a href="mailto:delsartea@orange.fr">delsartea@orange.fr</a><br>
-						addresse : 22 rue arthur rimbaud 08330	Vrigne aux Bois<br></p>
-					</ul></div>
-			</nav>
-			<div id="np">
-				<img src="image/photo%20d'identit%C3%A9%20(1).jpg">
-				<div id="nom">Anthony DELSARTE</div>
-			</div>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
 
-			<div id="fe">
-				<div id="formations">
-					<h3>Formations</h3>
-					<br>
-					<ul>
-						<li>2015   Obtention du brevet des collège (Mention bien)</li><br>
-						<li>2016   obtention du diplôme d’équipier de sapeur-pompier volontaire</li><br>
-						<li>2018   obtention du permis B à la suite de la conduite accompagné</li><br>
-						<li>2018   obtention du baccalauréat STI2D option SIN (Mention bien)</li><br>
-						<li>2020   obtention du BTS Système Numérique spécialisation Electronique et Communications</li><br>
-						<li>2020   AIPR (autorisation d’intervention à proximité des réseaux)</li><br>
-						<li>2020   en cours : Licence professionnelle : conception, rédaction et réalisation web</li><br>
-					</ul>
+    gtag('config', 'UA-159548925-1');
+  </script>
 
-				</div>
-				<div id="experiencePro">
-					<h3>Experience professionnelle</h3>
-					<br>
-					<ul>
-						<li>2015  Stage d'une semaine au collège au sein de La Pharmacie de la Vrigne<br></li>
-						<br>
-						<li>2016  Formation Pompier<br><br></li>
-						<li>2019  Stage en entreprise dans le cadre de ma première année<br>de BTS au sein de l'entreprise Avelec à Douzy<br></li>
-						<br>
-						<li>2019  CDD de 2 mois puis 2 semaine suite à mon stage en entreprise de BTS<br></li>
-						<br>
-						<li>2020  CDD de 2 mois au sein de l'entreprise Urano en tant que conducteur d'engin (compacteur)<br></li>
-					</ul>
+  <title>Portfolio - Anthony Delsarte</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+  <link rel='stylesheet' href="styles/main.css">
+ 
 
-				</div>
-			</div>
-			
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 
 
-		</div>
 
 
-	</body>
-</html>    
+
+
+<meta name="description" content="Je m'appelle Anthony Delsarte, j'ai 20 ans et je suis passionné par le
+                web
+                et le graphisme depuis quelques années ! Je suis actuellement en licence professionnelle
+                CRRW
+                (Conception, Rédaction et Réalisation web, parcours webdesign).
+              Étant intéressé par le graphisme et le web, je me destine à des
+                études
+                pour devenir Webdesigner.">
+</head>
+
+<body>
+  <nav>
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+      <i class="fas fa-bars"></i>
+    </label>
+    <label class="logo"><a href="index.html"><img src="images/logo-AD.png"
+          alt="Logo de Anthony Delsarte représentant les initiales"></a></label>
+    <ul class="menu" id="menu">
+      <li><a href="#presentation" class="active">Présentation</a></li>
+      <li><a href="#competences">Compétences</a></li>
+      <li><a href="#experience">Expériences</a></li>
+      <li><a href="#formations">Formations</a></li>
+      <li><a href="#realisations">Réalisations</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    
+  </nav>
+  <header id="header">
+    <h1><strong>Anthony Delsarte</strong></h1>
+    <h2><strong>Web<span>designer</span></strong></h2>
+    <h2><strong>Intégrateur <span>web</span></strong></h2>
+    <a href="#presentation">
+      <div class="scroll-down"></div>
+    </a>
+  </header>
+  <main>
+    <section>
+      <article>
+        <div class="content" id="presentation">
+          <h2>Présentation</h2>
+          <div class="content__presentation">
+           
+            <div class="content__presentation__texte">
+              <p>Je m'appelle <strong>Anthony Delsarte</strong>, j'ai <span>21 ans </span> et je suis passionné par le
+                web
+                et le graphisme depuis quelques années ! Je suis actuellement en licence professionnelle
+                <span>CRRW</span>
+                (Conception, Rédaction et Réalisation web, parcours webdesign).</p>
+              <p>Étant intéressé par le <strong>graphisme</strong> et le <strong>web</strong>, je me destine à des
+                études
+                pour devenir <strong>Webdesigner</strong>.</p>
+              <a class="cv" href="images/cvantho.pdf" target="_blank"><button src="images/cvantho.pdf"><img
+                    src="images/download.svg" alt="Le cv n'a pas pu être trouvé ou être pris en charge">
+                  Voir mon CV</button></a>
+            </div>
+          </div>
+        </div>
+        <div class="content" id="competences">
+          <h2>Compétences</h2>
+          <div class="content__competences1 bot">
+            <div class="content__competences1__boite">
+              <div class="content__competences1__boite__picto">
+                <i class="fab fa-html5"></i>
+              </div>
+              <div class="content__competences1__boite__texte">HTML5</div>
+            </div>
+
+            <div class="content__competences1__boite">
+              <div class="content__competences1__boite__picto">
+                <i class="fab fa-css3-alt"></i>
+              </div>
+              <div class="content__competences1__boite__texte">CSS3</div>
+            </div>
+
+            
+
+            <div class="content__competences1__boite">
+              <div class="content__competences1__boite__picto">
+                <i class="fab fa-bootstrap"></i>
+              </div>
+              <div class="content__competences1__boite__texte">Bootstrap</div>
+            </div>
+
+            <div class="content__competences1__boite">
+              <div class="content__competences1__boite__picto">
+                <i class="fab fa-js-square"></i>
+              </div>
+              <div class="content__competences1__boite__texte">JavaScript</div>
+            </div>
+          </div>
+
+
+          <div class="content__competences1">
+            <div class="content__competences1__boite">
+              <div class="content__competences1__boite__picto">
+                <i class="fab fa-wordpress"></i>
+              </div>
+              <div class="content__competences1__boite__texte">Wordpress</div>
+            </div>
+
+            <div class="content__competences1__boite">
+              <div class="content__competences1__boite__picto">
+
+                <img src="images/mysql.svg" alt="">
+              </div>
+              <div class="content__competences1__boite__texte">MySQL</div>
+            </div>
+
+            <div class="content__competences1__boite">
+              <div class="content__competences1__boite__picto">
+                <i class="fab fa-php"></i>
+              </div>
+              <div class="content__competences1__boite__texte">PHP</div>
+            </div>
+
+            <div class="content__competences1__boite">
+              <div class="content__competences1__boite__picto">
+                <img src="images/illustrator.svg" alt="">
+              </div>
+              <div class="content__competences1__boite__texte">Illustrator</div>
+            </div>
+
+            <div class="content__competences1__boite">
+              <div class="content__competences1__boite__picto">
+                <img src="images/photoshop.svg" alt="">
+              </div>
+              <div class="content__competences1__boite__texte">Photoshop</div>
+            </div>
+          </div>
+          <h2>Outils</h2>
+          <div class="content__competences1">
+            <div class="content__competences1__boite">
+              <div class="content__competences1__boite__picto">
+                <img src="images/visual.svg" alt="">
+              </div>
+              <div class="content__competences1__boite__texte">VStudio</div>
+            </div>
+
+            <div class="content__competences1__boite">
+              <div class="content__competences1__boite__picto">
+
+                <i class="fab fa-git-alt"></i>
+              </div>
+              <div class="content__competences1__boite__texte">Git</div>
+            </div>
+
+            <div class="content__competences1__boite">
+              <div class="content__competences1__boite__picto">
+                <i class="fab fa-github"></i>
+              </div>
+              <div class="content__competences1__boite__texte">GitHub</div>
+            </div>
+
+            <div class="content__competences1__boite">
+              <div class="content__competences1__boite__picto">
+                <i class="fab fa-font-awesome"></i>
+              </div>
+              <div class="content__competences1__boite__texte">FontAwesome</div>
+            </div>
+          </div>
+        </div>
+        <div class="content" id="experience">
+          <h2>Expériences</h2>
+          <div class="formations">
+            <div class="formations__image">
+              <img class="picto" src="images/athenum-logo.png"
+                alt="Logo de TV8 sur un fond noir avec une police blanche et jaune">
+            </div>
+            <div class="formations__texte">
+              <div class="formations__texte__titre">
+                <p>Athenum - Entreprise de reconditionnement de téléphone</p>
+              </div>
+              <div class="formations__texte__lieu">
+                <p>Douzy (De fin mai à debut juillet 2019)</p>
+              </div>
+              <div class="formations__texte__paragraphe">
+                <p>Période de 6 semaines où j'ai pu experimenter le CMS Prestashop et 
+                  le reconditionnement d'iPhone.</p>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <div class="content" id="formations">
+          <h2>Formations</h2>
+          <div class="formations">
+            <div class="formations__image">
+              <img src="images/eisine.png" alt="Photo représentant la facade de l'IUT de Haguenau">
+            </div>
+            <div class="formations__texte">
+              <div class="formations__texte__titre">
+                <p>LP CRRW (Métiers du Numérique : Conception, Rédaction et Réalisation web, parcours intégration et
+                  webdesign).
+                </p>
+              </div>
+              <div class="formations__texte__lieu">
+                <p>EiSINe - Charleville-Mézières (2020/2021)</p>
+              </div>
+              <div class="formations__texte__paragraphe">
+                <p>Suite logique du DUT MMI, continuité de l'apprentissage du <strong>web</strong>, du
+                  <strong>graphisme</strong> avec la suite adobe,
+                  , gestion de projets avec des outils de méthodes agiles. Réalisations de maquettes dynamique et de
+                  supports web responsive, avec un aspect UI/UX moderne.</p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="formations top">
+            <div class="formations__image">
+              <img src="images/bts.png" alt="Image représentant le logo du Lycée Polyvalant François Bazin">
+            </div>
+            <div class="formations__texte">
+              <div class="formations__texte__titre">
+                <p>BTS SNEC (Système Numérique option Électronique et communication)</p>
+              </div>
+              <div class="formations__texte__lieu">
+                <p>Lycée Polyvalant François Bazin - Charleville-Mézière (2018/2020)</p>
+              </div>
+              <div class="formations__texte__paragraphe">
+                <p>Apprentissage de <strong>l'électronique</strong> et de la <strong>programation</strong> en language C.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="formations top">
+            <div class="formations__image">
+              <img src="images/lycee.png" alt="Photo représentant la facade du lycée Pierre Bayles">
+            </div>
+            <div class="formations__texte">
+              <div class="formations__texte__titre">
+                <p>Baccalauréat STI2D - option SIN </p>
+              </div>
+              <div class="formations__texte__lieu">
+                <p>Lycée Pierre Bayles - Sedan (2016/2018)</p>
+              </div>
+              <div class="formations__texte__paragraphe">
+                <p>Admis <strong>Mention bien</strong>, approche des outils et des connaissances informatiques.
+                  Apprentissage des chaînes d’informations et des algorithmes simple.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content" id="realisations">
+          <h2>Réalisations</h2>
+          <div class="case-study-gallery">
+			  
+			  
+
+			  
+			  
+            <div class="case-study2 study1">
+              <div class="case-study__overlay">
+                <h3 class="case-study__title">Création d'un blason de la maison Skywalker</h3>
+                <a target="_blank" class="case-study__link" href="images/Blason.png">Voir le blason</a>
+              </div>
+            </div>
+			  
+           
+			  
+			<div class="case-study2 study3">
+              <div class="case-study__overlay">
+                <h3 class="case-study__title">Création du catalogue culturel du Fablab</h3>
+                <a target="_blank" class="case-study__link" href="images/cc.png">Voir la page</a>
+              </div>
+            </div>  
+			  
+          </div>
+        </div>
+        <div class="contact" id="contact">
+          <div class="contact__content">
+            <h2 class="contact__content__titre">Contact</h2>
+            <div class="border"></div>
+            <form class="contact-form" action="include/reception.php" method="POST">
+              <label for="nom">Nom et Prénom: </label><input type="text" id="nom" name="name" class="contact-form-text" placeholder="Votre nom et prénom">
+            <label for="email">E-mail: </label>  <input type="email" id="email" name="email" class="contact-form-text" placeholder="Votre e-mail">
+             <label for="tel">Numéro de téléphone: </label> <input id="tel" type="tel" name="tel" class="contact-form-text"
+							placeholder="Votre numéro de téléphone " pattern="[0-9]{10}" maxlength="10">
+             <label for="message">Message: </label> <textarea id="message" class="contact-form-text" name="message" placeholder="Votre message"></textarea>
+              <input type="submit" class="contact-form-btn" name="valider" value="Envoyer">
+            </form>
+          </div>
+        </div>
+      </article>
+    </section>
+  </main>
+  <footer>
+    <div class="logo"><a href="index.html"><img src="images/logo-AD.png"
+          alt="Logo de Anthony Delsarte représentant les initiales"></a></div>
+    <div class="texte">
+      <p>© Anthony Delsarte | Tous droits réservés | <a target="_blank" href="mention.html">Mentions légales</a></p>
+    </div>
+    
+  </footer>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="script/main.js"></script>
+</body>
+
+</html>
