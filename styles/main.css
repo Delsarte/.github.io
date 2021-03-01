@@ -2245,3 +2245,31 @@ footer .fab {
   }
 }
 
+#coordonnees
+{
+	font-family: "montserrat";
+	text-align: center;
+	font-size: 2em;	
+}
+
+.logo
+{
+	width: 112px;
+	height: 112px;
+}
+
+#contact
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+
+
+#contact-content,.contact__content
+{
+	width: 100%;
+	
+}
