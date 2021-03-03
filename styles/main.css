@@ -2268,8 +2268,23 @@ footer .fab {
 }
 
 
+
+
+
 #contact-content,.contact__content
 {
-	width: 100%;
-	
+	width: 100%;	
 }
+
+.content
+{
+	transform: scale(0.8);
+	transition-duration: 1s;
+}
+
+.content.actif
+{
+	transform: scale(0.9);
+	transition-duration: 1s;
+}
+*/
