@@ -74,7 +74,6 @@ if (sections.length > 0) {
 	element.classList.add('actif');
  }
 	
-	var updateLayout =debounce(function(e) {// Does all the layout updating here
-					callbackFunc();	}, 500); // Maximum run of once per 500 milliseconds
+	
 	
 }
