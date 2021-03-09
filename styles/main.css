@@ -277,7 +277,6 @@ footer .fab {
   }
   header {
     background: url(../images/image_header.jpg) no-repeat;
-	  opacity: 70%;
     background-size: cover;
     height: 100vh;
     background-attachment: fixed;
@@ -959,7 +958,6 @@ footer .fab {
   }
   header {
     background: url(../images/image_header.jpg) no-repeat;
-	  opacity: 70%;
     background-size: cover;
     height: 100vh;
     background-attachment: fixed;
@@ -1624,7 +1622,6 @@ footer .fab {
 @media (min-width: 1001px) {
   header {
     background: url(../images/image_header.jpg) no-repeat;
-	opacity: 70%;
     background-size: cover;
     height: 100vh;
     background-attachment: fixed;
