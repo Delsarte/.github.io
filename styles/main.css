@@ -742,18 +742,18 @@ footer .fab {
     background-position: center;
   }
   .content .study3 {
-    background-image: url("https://www.mca-materiaux.fr/");
+    background-image: url("../images/video.jpg");
     background-position: center;
   }
   .content .study4 {
-    background-image: url("../images/vignory.png");
+    background-image: url("../images/mca.png");
     background-position: center;
   }
   .content .study5 {
-    background-image: url("../images/.jpg");
+    background-image: url("../images/vignory.png");
     background-position: center;
   }
-  .content .study6 {
+   .content .study6 {
     background-image: url("../images/.jpg");
     background-position: center;
   }
@@ -1410,31 +1410,31 @@ footer .fab {
     background-position: center;
   }
   .content .study2 {
-    background-image: url("../images/athenum.png");
-    background-position: center;
-  }
-  .content .study3 {
     background-image: url("../images/cc.png");
     background-position: center;
   }
+  .content .study3 {
+    background-image: url("../images/video.jpg");
+    background-position: center;
+  }
   .content .study4 {
-    background-image: url("../images/medium.jpg");
+    background-image: url("../images/mca.png");
     background-position: center;
   }
   .content .study5 {
-    background-image: url("../images/rwerdocko.jpg");
+    background-image: url("../images/vignory.png");
     background-position: center;
   }
-  .content .study6 {
-    background-image: url("../images/affiche.jpg");
+   .content .study6 {
+    background-image: url("../images/.jpg");
     background-position: center;
   }
   .content .study7 {
-    background-image: url("../images/logo.jpg");
+    background-image: url("../images/.jpg");
     background-position: center;
   }
   .content .study8 {
-    background-image: url("../images/animations.jpg");
+    background-image: url("../images/.jpg");
     background-position: center;
   }
   .contact {
@@ -2037,31 +2037,31 @@ footer .fab {
     background-position: center;
   }
   .content .study2 {
-    background-image: url("../images/athenum.png");
-    background-position: center;
-  }
-  .content .study3 {
     background-image: url("../images/cc.png");
     background-position: center;
   }
+  .content .study3 {
+    background-image: url("../images/video.jpg");
+    background-position: center;
+  }
   .content .study4 {
-    background-image: url("../images/medium.jpg");
+    background-image: url("../images/mca.png");
     background-position: center;
   }
   .content .study5 {
-    background-image: url("../images/rwerdocko.jpg");
+    background-image: url("../images/vignory.png");
     background-position: center;
   }
-  .content .study6 {
-    background-image: url("../images/affiche.jpg");
+   .content .study6 {
+    background-image: url("../images/.jpg");
     background-position: center;
   }
   .content .study7 {
-    background-image: url("../images/logo.jpg");
+    background-image: url("../images/.jpg");
     background-position: center;
   }
   .content .study8 {
-    background-image: url("../images/animations.jpg");
+    background-image: url("../images/.jpg");
     background-position: center;
   }
   .contact {
