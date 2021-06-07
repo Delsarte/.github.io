@@ -1801,6 +1801,8 @@ footer .fab {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+      justify-content: center;
+      align-items: center;
   }
   .content__competences1__boite__picto i {
     display: -webkit-box;
