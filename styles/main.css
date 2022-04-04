@@ -2294,4 +2294,8 @@ footer .fab {
 	transform: scale(0.9);
 	transition-duration: 1s;
 }
+.cv:hover
+{
+	curseur: pointer;
+}
 */
